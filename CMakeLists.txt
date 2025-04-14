@@ -14,7 +14,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Enable all reasonable warnings
 add_compile_options(-Wall -Wextra -Wpedantic)
 
-# Add third-party libraries
+# Add third-party libraries ==> Pending
 add_subdirectory(3rdParty/glad EXCLUDE_FROM_ALL)
 add_subdirectory(3rdParty/sdl-2.0.20 EXCLUDE_FROM_ALL)
 add_subdirectory(3rdParty/imgui-1.88 EXCLUDE_FROM_ALL)
