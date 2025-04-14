@@ -191,4 +191,26 @@ class Chip8 {
 
     // Current 16-bit opcode
     uint16_t opcode{};
+
+    // === Random Number Generator ===
+
+    // Mersenne Twister engine for generating random bytes
+    std::default_random_engine randGen;
+
+    // Uniform distribution in range [0, 255]
+    std::uniform_int_distribution<uint8_t> randByte;
+
+    // === Opcode Dispatch Mechanism ===
+
+    // Function pointer type for opcode handlers
+    typedef void (Chip8::*Chip8Func)();
+
+    // Main opcode function table (by high nibble of opcode)
+    Chip8Func table[0xF + 1];
+
+    // Subtables for extended decoding
+    Chip8Func table0[0xE + 1];
+    Chip8Func table8[0xE + 1];
+    Chip8Func tableE[0xE + 1];
+    Chip8Func tableF[0x65 + 1];
 };
