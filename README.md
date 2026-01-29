@@ -1,5 +1,11 @@
 # 🎮 Chip8-core
 
+> **📚 Academic Project Notice**  
+> This project was developed as part of an academic semester coursework and served as a valuable learning exercise in cybersecurity, machine learning, and network analysis. While it demonstrates core concepts of intrusion detection systems, **this repository is no longer actively maintained and will not receive future updates**. The code remains available for educational purposes and as a reference for students and researchers interested in ML-powered security solutions.
+
+Big Defend is an Intrusion Detection System (IDS) leveraging **Machine Learning** and **Real-Time Packet Capture**. It captures live network traffic using Scapy, trains an anomaly detection model (using scikit-learn), and monitors network activity for potential threats, presenting controls and logs via a sleek **GUI built with PySide6**.
+
+---
 <div align="center">
 
 **A modern C++ implementation of the classic CHIP-8 emulator**
@@ -11,6 +17,7 @@
 [![Development Status](https://img.shields.io/badge/status-Core%20Complete-brightgreen.svg)](https://github.com/adawatia/chip8-core)
 
 </div>
+
 
 ## 📖 About
 
@@ -24,12 +31,6 @@ Chip8-core is a high-performance, cross-platform CHIP-8 emulator written in mode
 - Display buffer handling
 - Input processing logic
 - Audio system architecture
-
-**Phase 2: UI Integration 🔄 IN PROGRESS**
-- SFML integration for window management and rendering
-- ImGui integration for modern debug interface and controls
-- Real-time display rendering with smooth graphics
-- Audio output implementation
 
 ## ✨ Features
 
