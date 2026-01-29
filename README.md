@@ -1,11 +1,5 @@
 # 🎮 Chip8-core
 
-> **📚 Academic Project Notice**  
-> This project was developed as part of an academic semester coursework and served as a valuable learning exercise in cybersecurity, machine learning, and network analysis. While it demonstrates core concepts of intrusion detection systems, **this repository is no longer actively maintained and will not receive future updates**. The code remains available for educational purposes and as a reference for students and researchers interested in ML-powered security solutions.
-
-Big Defend is an Intrusion Detection System (IDS) leveraging **Machine Learning** and **Real-Time Packet Capture**. It captures live network traffic using Scapy, trains an anomaly detection model (using scikit-learn), and monitors network activity for potential threats, presenting controls and logs via a sleek **GUI built with PySide6**.
-
----
 <div align="center">
 
 **A modern C++ implementation of the classic CHIP-8 emulator**
@@ -18,6 +12,12 @@ Big Defend is an Intrusion Detection System (IDS) leveraging **Machine Learning*
 
 </div>
 
+> **📚 Academic Project Notice**  
+> This project was developed as part of an academic semester coursework and served as a valuable learning exercise in computer archietecture and hardware simulation. While it demonstrates core concepts of operating system, **this repository is no longer actively maintained and will not receive future updates**. The code remains available for educational purposes and as a reference for students and researchers interested in simulation or emulations solutions.
+
+Big Defend is an Intrusion Detection System (IDS) leveraging **Machine Learning** and **Real-Time Packet Capture**. It captures live network traffic using Scapy, trains an anomaly detection model (using scikit-learn), and monitors network activity for potential threats, presenting controls and logs via a sleek **GUI built with PySide6**.
+
+---
 
 ## 📖 About
 
